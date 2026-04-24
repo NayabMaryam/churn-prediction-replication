@@ -1,0 +1,4 @@
+Dataset,Rows,Columns,Churn Col,Churn Rate %,Missing Vals,Numeric Cols,Object Cols
+Insurance,45211,17,labels,8.8,11303,17,0
+ISP,72274,11,churn,55.4,22334,11,0
+Telecom,3333,20,Churn,14.5,0,16,3

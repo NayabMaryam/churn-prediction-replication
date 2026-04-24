@@ -1,0 +1,4 @@
+Dataset,X_train shape,X_test shape,Train churn rate,Test churn rate,Features
+Insurance,"(47904, 16)","(6782, 16)",50.0%,11.7%,16
+ISP,"(64080, 10)","(14455, 10)",50.0%,55.4%,10
+Telecom,"(4560, 19)","(667, 19)",50.0%,14.5%,19
