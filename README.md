@@ -31,3 +31,56 @@ Replication of:
 ---
 
 ## Repository Structure
+churn-prediction-replication/
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_xgboost.ipynb
+│   ├── 04_cnn_models.ipynb
+│   └── 05_ensemble.ipynb
+├── results/
+│   ├── master_results.csv
+│   ├── all_models_roc_curves.png
+│   └── ...
+├── report/
+│   └── replication_report.pdf
+├── requirements.txt
+└── README.md
+
+---
+
+## How To Run
+
+1. Open any notebook in Google Colab
+2. Mount Google Drive when prompted
+3. Run cells in order from top to bottom
+
+Install dependencies:
+pip install -r requirements.txt
+
+---
+
+## Datasets
+
+| Dataset | Source |
+|---|---|
+| Insurance Churn | kaggle.com/datasets/mukulsingh/insurance-churn-prediction |
+| ISP Churn | kaggle.com/datasets/mehmetsabrikunt/internet-service-churn |
+| Telecom Churn | kaggle.com/datasets/mnassrib/telecom-churn-datasets |
+
+---
+
+## Key Findings
+
+- LFE-CNN achieved 95.83% on Insurance — close to paper's 95.96%
+- XGBoost outperformed CNNs on ISP and Telecom
+- Telecom CNN underperformed due to small dataset (3,333 rows)
+- ISP size discrepancy due to paper's reporting inconsistency
+
+---
+
+## References
+
+AbdelAziz N.M. et al., "A Comprehensive Evaluation of Machine 
+Learning and Deep Learning Models for Churn Prediction," 
+Information, vol. 16, no. 7, p. 537, Jun. 2025.
