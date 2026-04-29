@@ -1,0 +1,4 @@
+Dataset,Model,Accuracy,Precision,Recall,F1 Score,ROC AUC,Kappa,Specificity,True Churn,False Churn
+Insurance,Ensemble (LFE+DFE),95.43,92.37,99.05,95.59,97.88,0.9087,91.82,5931,490
+ISP,Ensemble (LFE+DFE),92.68,94.12,92.57,93.34,97.14,0.8522,92.82,7415,463
+Telecom,Ensemble (LFE+DFE),80.66,41.24,84.21,55.36,84.91,0.4481,80.07,80,114

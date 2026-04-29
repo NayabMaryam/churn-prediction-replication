@@ -1,4 +1,4 @@
 Dataset,Model,Accuracy,Precision,Recall,F1 Score,ROC AUC,Kappa,Specificity,True Churn,False Churn
-Insurance,XGBoost,90.3,57.84,62.8,60.22,92.65,0.547,93.94,498,363
-ISP,XGBoost,97.44,98.63,96.73,97.67,99.73,0.9483,98.32,7748,108
-Telecom,XGBoost,95.5,89.41,78.35,83.52,95.03,0.8093,98.42,76,9
+Insurance,XGBoost,89.94,87.45,93.25,90.26,95.57,0.7988,86.63,5584,801
+ISP,XGBoost,94.08,95.91,93.3,94.58,98.08,0.8806,95.05,7473,319
+Telecom,XGBoost,95.05,82.98,82.11,82.54,92.28,0.7966,97.2,78,16
