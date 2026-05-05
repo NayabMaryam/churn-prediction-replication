@@ -1,0 +1,32 @@
+{
+  "Insurance": {
+    "n_estimators": 317,
+    "max_depth": 10,
+    "learning_rate": 0.17429861301611524,
+    "subsample": 0.6667978638573866,
+    "colsample_bytree": 0.9686093452844404,
+    "min_child_weight": 9,
+    "gamma": 0.3201112858811347,
+    "random_state": 42
+  },
+  "ISP": {
+    "n_estimators": 331,
+    "max_depth": 10,
+    "learning_rate": 0.12660030229497296,
+    "subsample": 0.9072835523538516,
+    "colsample_bytree": 0.9967103998608807,
+    "min_child_weight": 2,
+    "gamma": 0.9102503755942233,
+    "random_state": 42
+  },
+  "Telecom": {
+    "n_estimators": 115,
+    "max_depth": 7,
+    "learning_rate": 0.14162389872593548,
+    "subsample": 0.947485380825702,
+    "colsample_bytree": 0.6708792928145954,
+    "min_child_weight": 6,
+    "gamma": 0.34511400712559703,
+    "random_state": 42
+  }
+}

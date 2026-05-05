@@ -1,0 +1,3 @@
+Dataset,Model,Accuracy,Precision,Recall,F1 Score,ROC AUC,Kappa,Specificity,True Churn,False Churn
+ISP,XGBoost-Engineered,93.2,95.04,92.56,93.78,97.12,0.8628,94.0,7414,387
+Telecom,XGBoost-Engineered,98.05,98.81,87.37,92.74,93.39,0.9162,99.83,83,1
